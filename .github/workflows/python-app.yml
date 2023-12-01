@@ -42,7 +42,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test with pytest
-        run: pytest 
+        run: |
+          pip install pytest
+          pytest 
 
   # deploy:
   #   runs-on: ubuntu-latest
