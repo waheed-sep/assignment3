@@ -45,5 +45,5 @@ jobs:
         run: |
           pytest 
 
-  deploy:
-    runs-on: ubuntu-latest
+  # deploy:
+  #   runs-on: ubuntu-latest
